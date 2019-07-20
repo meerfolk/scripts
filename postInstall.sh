@@ -64,6 +64,7 @@ options=(1 "Git" off
                 9)
                         echo "Install Autokey"
                         sudo apt install autokey-gtk -y
+                        git clone https://github.com/meerfolk/autokey ~/.config/autokey/data/autokey
                         ;;
                 11)
                         echo "Install psql-client"
